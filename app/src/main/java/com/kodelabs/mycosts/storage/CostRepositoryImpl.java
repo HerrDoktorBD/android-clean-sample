@@ -21,7 +21,7 @@ public class CostRepositoryImpl implements CostRepository {
 
     private Context mContext;
 
-    // let's generate some dummy data
+    // generate some dummy data
     static {
 
         List<com.kodelabs.mycosts.storage.model.Cost> costs = SQLite.select()
@@ -31,7 +31,7 @@ public class CostRepositoryImpl implements CostRepository {
         // if the database is empty, let's add some dummies
         if (costs.size() == 0) {
 
-            // get the today's date for some sample cost items
+            // get today's date for some sample cost items
             Calendar calendar = Calendar.getInstance();
             Date today = calendar.getTime();
             today = DateUtils.truncateHours(today); // set hours, minutes and seconds to 0 for simplicity
@@ -59,7 +59,6 @@ public class CostRepositoryImpl implements CostRepository {
                 cost = new com.kodelabs.mycosts.storage.model.Cost("Entertainment", "I went to see Star Wars!", yesterday, 50.0);
                 cost.insert();
 
-
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -69,7 +68,6 @@ public class CostRepositoryImpl implements CostRepository {
     public CostRepositoryImpl(Context context) {
         mContext = context;
     }
-
 
     @Override
     public void insert(Cost item) {

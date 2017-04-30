@@ -20,7 +20,6 @@ public class RestClient {
     public static final String REST_API_URL = "https://mycosts-app.herokuapp.com/";
 //    public static final String REST_API_URL = "http://192.168.0.12:3000";
 
-
     private static Retrofit s_retrofit;
 
     static {

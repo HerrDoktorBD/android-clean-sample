@@ -15,7 +15,7 @@ import com.kodelabs.mycosts.domain.executor.MainThread;
  */
 public abstract class AbstractInteractor implements Interactor {
 
-    protected Executor   mThreadExecutor;
+    protected Executor mThreadExecutor;
     protected MainThread mMainThread;
 
     protected volatile boolean mIsCanceled;
@@ -57,5 +57,4 @@ public abstract class AbstractInteractor implements Interactor {
         // start running this interactor in a background thread
         mThreadExecutor.execute(this);
     }
-
 }

@@ -25,5 +25,4 @@ public class AndroidApplication extends Application {
         // enable stetho
         Stetho.initializeWithDefaults(this);
     }
-
 }

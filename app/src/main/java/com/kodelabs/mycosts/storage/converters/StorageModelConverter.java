@@ -41,7 +41,6 @@ public class StorageModelConverter {
         return result;
     }
 
-
     public static List<com.kodelabs.mycosts.domain.model.Cost> convertListToDomainModel(List<Cost> costs) {
         List<com.kodelabs.mycosts.domain.model.Cost> convertedCosts = new ArrayList<>();
 
@@ -55,7 +54,6 @@ public class StorageModelConverter {
 
         return convertedCosts;
     }
-
 
     public static List<Cost> convertListToStorageModel(List<com.kodelabs.mycosts.domain.model.Cost> costs) {
         List<Cost> convertedCosts = new ArrayList<>();

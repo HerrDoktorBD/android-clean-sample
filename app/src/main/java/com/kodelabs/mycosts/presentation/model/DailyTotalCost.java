@@ -12,7 +12,7 @@ public class DailyTotalCost {
 
     private List<Cost> mCostList;
 
-    private Date   mDate;
+    private Date mDate;
     private double mTotalCost;
 
     public DailyTotalCost(List<Cost> costList, Date date) {

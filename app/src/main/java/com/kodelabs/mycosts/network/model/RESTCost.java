@@ -24,7 +24,6 @@ public class RESTCost {
     @SerializedName("amount")
     private double mAmount;
 
-
     public RESTCost(long id, String category, String description, Date date, double amount) {
         mId = id;
         mCategory = category;

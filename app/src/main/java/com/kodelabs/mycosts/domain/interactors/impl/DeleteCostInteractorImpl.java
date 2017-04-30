@@ -14,9 +14,9 @@ import com.kodelabs.mycosts.domain.repository.CostRepository;
  */
 public class DeleteCostInteractorImpl extends AbstractInteractor implements DeleteCostInteractor {
 
-    private long                          mCostId;
+    private long mCostId;
     private DeleteCostInteractor.Callback mCallback;
-    private CostRepository                mCostRepository;
+    private CostRepository mCostRepository;
 
     public DeleteCostInteractorImpl(Executor threadExecutor,
                                     MainThread mainThread, long costId,

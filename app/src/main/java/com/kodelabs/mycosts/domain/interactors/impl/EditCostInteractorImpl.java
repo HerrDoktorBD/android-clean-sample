@@ -18,15 +18,14 @@ public class EditCostInteractorImpl extends AbstractInteractor implements EditCo
 
 
     private EditCostInteractor.Callback mCallback;
-    private CostRepository              mCostRepository;
+    private CostRepository mCostRepository;
 
     private Cost mUpdatedCost;
 
     private String mCategory;
     private String mDescription;
-    private Date   mDate;
+    private Date mDate;
     private double mAmount;
-
 
     public EditCostInteractorImpl(Executor threadExecutor, MainThread mainThread,
                                   Callback callback, CostRepository costRepository,

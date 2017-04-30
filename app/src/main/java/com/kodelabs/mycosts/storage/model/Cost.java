@@ -14,7 +14,6 @@ import java.util.Date;
 @Table(database = CostDatabase.class)
 public class Cost extends BaseModel {
 
-
     @PrimaryKey
     private long id; // our base model already has an id, let's use it as a primary key
 
@@ -88,7 +87,6 @@ public class Cost extends BaseModel {
     public void setAmount(double amount) {
         this.amount = amount;
     }
-
 
     @Override
     public String toString() {

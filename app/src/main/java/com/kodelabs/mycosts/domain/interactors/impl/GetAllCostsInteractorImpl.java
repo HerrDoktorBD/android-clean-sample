@@ -19,7 +19,7 @@ import java.util.List;
  */
 public class GetAllCostsInteractorImpl extends AbstractInteractor implements GetAllCostsInteractor {
 
-    private Callback       mCallback;
+    private Callback mCallback;
     private CostRepository mCostRepository;
 
     private Comparator<Cost> mCostComparator = new Comparator<Cost>() {

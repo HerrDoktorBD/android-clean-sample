@@ -8,17 +8,16 @@ import com.kodelabs.mycosts.domain.model.Cost;
 import com.kodelabs.mycosts.domain.repository.CostRepository;
 
 /**
- * Interactor responsible for getting a single cost item from the database using its ID. It should return the cost item
- * or notify if there isn't one.
+ * Interactor responsible for getting a single cost item from the database using its ID.
+ * It should return the cost item or notify if there isn't one.
  * <p/>
  * Created by dmilicic on 12/27/15.
  */
 public class GetCostByIdInteractorImpl extends AbstractInteractor implements GetCostByIdInteractor {
 
-    private long                           mCostId;
-    private CostRepository                 mCostRepository;
+    private long mCostId;
+    private CostRepository mCostRepository;
     private GetCostByIdInteractor.Callback mCallback;
-
 
     public GetCostByIdInteractorImpl(Executor threadExecutor, MainThread mainThread, long costId,
                                      CostRepository costRepository,

@@ -22,7 +22,8 @@ public class AnimatorFactory {
     public static final int REVEAL_ANIMATION_LENGTH = 350; // in milliseconds
 
     /**
-     * Creates a circural reveal animation from a given source view. While revealing it uses the reveal layout and after
+     * Creates a circular reveal animation from a given source view.
+     * While revealing it uses the reveal layout and after
      * the animation completes, it starts the activity given in the intent.
      *
      * @param src          The source view from which the circular animation starts.
@@ -58,7 +59,6 @@ public class AnimatorFactory {
 
             }
         };
-
 
 //        src.setVisibility(View.INVISIBLE);
 

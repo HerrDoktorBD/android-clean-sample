@@ -6,10 +6,10 @@ import java.util.Date;
  * Created by dmilicic on 12/10/15.
  */
 public class Cost {
-    private long   mId;
+    private long mId;
     private String mCategory;
     private String mDescription;
-    private Date   mDate;
+    private Date mDate;
     private double mAmount;
 
     public Cost(String category, String description, Date date, double amount) {
@@ -22,7 +22,6 @@ public class Cost {
         mDate = date;
         mAmount = amount;
     }
-
 
     /**
      * This constructor should be used when we are converting an already existing cost item to this POJO, so we already have
