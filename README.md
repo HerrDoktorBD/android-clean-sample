@@ -1,4 +1,6 @@
-# Android Clean - Cost Tracker
+# Android Clean - Cost Tracker[![Build Status](https://travis-ci.org/HerrDoktorBD/android-clean-sample-app.svg?branch=master)](https://travis-ci.org/HerrDoktorBD/android-clean-sample-app)
+=========================
+
 A sample cost-tracker app that showcases my Clean architecture approach to build Android applications. It is a simple app with **core features** that include:
 
 - Adding, editing and deleting a cost with a date, category, description and amount
