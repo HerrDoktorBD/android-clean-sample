@@ -4,7 +4,7 @@ apply from: "${project.rootDir}/QA/quality.gradle"
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
         applicationId "com.kodelabs.mycosts"

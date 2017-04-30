@@ -69,13 +69,12 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
         ContentResolver.requestSync(account, context.getString(R.string.stub_content_authority), settingsBundle);
     }
 
-
     private Callback<Void> mResponseCallback = new Callback<Void>() {
         @Override
         public void onResponse(Call<Void> call, Response<Void> response) {
             Timber.i("UPLOAD SUCCESS: %d", response.code());
 
-            if (response.isSuccess()) {
+            if (response.isSuccessful()) {
                 mCostRepository.markSynced(mUnsyncedCosts);
             }
         }
@@ -117,7 +116,7 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
             Timber.i("UPLOAD SUCCESS: %d", response.code());
 
             // everything went well, mark local cost items as synced
-            if (response.isSuccess()) {
+            if (response.isSuccessful()) {
                 mCostRepository.markSynced(mUnsyncedCosts);
             }
 
