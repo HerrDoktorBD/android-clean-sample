@@ -1,5 +1,4 @@
-# Android Clean - Cost Tracker [![Build Status](https://travis-ci.org/HerrDoktorBD/android-clean-sample-app.svg?branch=master)](https://travis-ci.org/HerrDoktorBD/android-clean-sample-app)
-[![Coverage Status](https://coveralls.io/repos/github/HerrDoktorBD/android-clean-sample-app/badge.svg?branch=master)](https://coveralls.io/github/HerrDoktorBD/android-clean-sample-app?branch=master)
+# Android Clean - Cost Tracker [![Build Status](https://travis-ci.org/HerrDoktorBD/android-clean-sample-app.svg?branch=master)](https://travis-ci.org/HerrDoktorBD/android-clean-sample-app) [![Coverage Status](https://coveralls.io/repos/github/HerrDoktorBD/android-clean-sample-app/badge.svg?branch=master)](https://coveralls.io/github/HerrDoktorBD/android-clean-sample-app?branch=master)
 =========================
 
 A sample cost-tracker app that showcases my Clean architecture approach to build Android applications. It is a simple app with **core features** that include:
