@@ -48,7 +48,7 @@ There is a rails app I made that syncs all cost items to the server. You can fin
 
 ## Future improvements
 
-This list of future improvements for this app and is something I may or may not actively work on. If anyone wants to get into contributing to open source, these can be a great way to start and are relatively easy to implement. I would be happy if it helps you learn and would accept a pull request if any of these are implemented:
+The list of future improvements for this app is something I may or may not actively work on. If anyone wants to get into contributing to open source, these can be a great way to start and are relatively easy to implement. I would be happy if it helps you learn and would accept a pull request if any of these are implemented:
 
 - There is only a list of daily costs, there should be a list for weekly, monthly and perhaps yearly.
 - A graph detailing how much a user spends on each category would be very useful. *Hint: Maybe use [MPAndroidChart]*
