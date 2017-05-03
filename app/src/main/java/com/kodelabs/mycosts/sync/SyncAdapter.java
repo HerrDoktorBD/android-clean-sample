@@ -85,7 +85,7 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
             t.printStackTrace();
 
             // try to sync again
-            SyncResult syncResult = new SyncResult();
+            // SyncResult syncResult = new SyncResult();
         }
     };
 

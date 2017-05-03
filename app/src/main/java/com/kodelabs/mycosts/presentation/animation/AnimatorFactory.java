@@ -38,9 +38,11 @@ public class AnimatorFactory {
         int finalRadius = Math.max(revealLayout.getWidth(), revealLayout.getHeight());
 
         AnimatorListener animatorListener = new AnimatorListener() {
+            /**
+             * @param animation
+             */
             @Override
             public void onAnimationStart(Animator animation) {
-
             }
 
             @Override
@@ -49,14 +51,18 @@ public class AnimatorFactory {
                 activity.overridePendingTransition(0, R.anim.hold);
             }
 
+            /**
+             * @param animation
+             */
             @Override
             public void onAnimationCancel(Animator animation) {
-
             }
 
+            /**
+             * @param animation
+             */
             @Override
             public void onAnimationRepeat(Animator animation) {
-
             }
         };
 
@@ -80,9 +86,11 @@ public class AnimatorFactory {
 
             anim.setDuration(REVEAL_ANIMATION_LENGTH);
             anim.addListener(new SupportAnimator.AnimatorListener() {
+                /**
+                 *
+                 */
                 @Override
                 public void onAnimationStart() {
-
                 }
 
                 @Override
@@ -91,14 +99,18 @@ public class AnimatorFactory {
                     activity.overridePendingTransition(0, R.anim.hold);
                 }
 
+                /**
+                 *
+                 */
                 @Override
                 public void onAnimationCancel() {
-
                 }
 
+                /**
+                 *
+                 */
                 @Override
                 public void onAnimationRepeat() {
-
                 }
             });
             anim.start();

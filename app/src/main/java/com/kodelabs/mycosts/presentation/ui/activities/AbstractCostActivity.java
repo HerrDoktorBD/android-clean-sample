@@ -29,7 +29,6 @@ import io.codetail.widget.RevealFrameLayout;
 public abstract class AbstractCostActivity extends AppCompatActivity
         implements DatePickerDialog.OnDateSetListener {
 
-
     @Bind(R.id.reveal_layout)
     RevealFrameLayout mRevealLayout;
 
@@ -68,7 +67,6 @@ public abstract class AbstractCostActivity extends AppCompatActivity
             }
         });
 
-
         mRevealLayout.setVisibility(View.VISIBLE);
     }
 
@@ -78,7 +76,6 @@ public abstract class AbstractCostActivity extends AppCompatActivity
         newFragment.setListener(this);
         newFragment.show(getFragmentManager(), "datePicker");
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

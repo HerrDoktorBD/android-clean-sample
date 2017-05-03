@@ -57,7 +57,6 @@ public class AddCostActivity extends AbstractCostActivity
         }
 
         return super.onOptionsItemSelected(item);
-
     }
 
     @Override
@@ -66,19 +65,24 @@ public class AddCostActivity extends AbstractCostActivity
         onBackPressed();
     }
 
+    /**
+     *
+     */
     @Override
     public void showProgress() {
-
     }
 
+    /**
+     *
+     */
     @Override
     public void hideProgress() {
-
     }
 
+    /**
+     * @param message The error message to be dislayed.
+     */
     @Override
     public void showError(String message) {
-
     }
-
 }
