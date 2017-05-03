@@ -44,29 +44,38 @@ public class AddCostPresenterImpl extends AbstractPresenter implements AddCostPr
         mView.onCostAdded();
     }
 
-
+    /**
+     *
+     */
     @Override
     public void resume() {
-
     }
 
+    /**
+     *
+     */
     @Override
     public void pause() {
-
     }
 
+    /**
+     *
+     */
     @Override
     public void stop() {
-
     }
 
+    /**
+     *
+     */
     @Override
     public void destroy() {
-
     }
 
+    /**
+     * @param message
+     */
     @Override
     public void onError(String message) {
-
     }
 }

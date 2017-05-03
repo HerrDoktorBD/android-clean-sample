@@ -23,22 +23,19 @@ public class StorageModelConverter {
     }
 
     public static com.kodelabs.mycosts.domain.model.Cost convertToDomainModel(Cost cost) {
-
         String desc = cost.getDescription();
         double amount = cost.getAmount();
         String category = cost.getCategory();
         Date date = cost.getDate();
         long id = cost.getId();
 
-        com.kodelabs.mycosts.domain.model.Cost result = new com.kodelabs.mycosts.domain.model.Cost(
+        return new com.kodelabs.mycosts.domain.model.Cost(
                 category,
                 desc,
                 date,
                 amount,
                 id
         );
-
-        return result;
     }
 
     public static List<com.kodelabs.mycosts.domain.model.Cost> convertListToDomainModel(List<Cost> costs) {
@@ -50,7 +47,6 @@ public class StorageModelConverter {
 
         // cleanup
         costs.clear();
-        costs = null;
 
         return convertedCosts;
     }
@@ -64,7 +60,6 @@ public class StorageModelConverter {
 
         // cleanup
         costs.clear();
-        costs = null;
 
         return convertedCosts;
     }

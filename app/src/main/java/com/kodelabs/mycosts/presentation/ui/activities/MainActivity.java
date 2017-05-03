@@ -79,7 +79,6 @@ public class MainActivity extends AppCompatActivity implements MainPresenter.Vie
                 new CostRepositoryImpl(this)
         );
 
-
         // create a dummy account if it doesn't yet exist
         DummyAccountProvider.CreateSyncAccount(this);
     }
@@ -94,7 +93,6 @@ public class MainActivity extends AppCompatActivity implements MainPresenter.Vie
 
         Timber.w("ONRESUME");
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -190,16 +188,23 @@ public class MainActivity extends AppCompatActivity implements MainPresenter.Vie
         startActivityForResult(intent, EDIT_COST_REQUEST);
     }
 
+    /**
+     * showProgress
+     */
     @Override
     public void showProgress() {
-
     }
 
+    /**
+     * hideProgress
+     */
     @Override
     public void hideProgress() {
-
     }
 
+    /**
+     * @param message The error message to be dislayed.
+     */
     @Override
     public void showError(String message) {
     }

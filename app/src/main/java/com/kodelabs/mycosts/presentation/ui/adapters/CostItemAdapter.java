@@ -29,13 +29,11 @@ import butterknife.ButterKnife;
  */
 public class CostItemAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> implements RecyclerViewClickListener {
 
-
     private enum ViewType {
         CONTRACTED_CARD, EXPANDED_CARD
     }
 
     private List<DailyTotalCost> mCostList;
-    private Context              mContext;
 
     private Set<Integer> mSelectedItems;
 
@@ -109,11 +107,9 @@ public class CostItemAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
         }
     }
 
-
     public CostItemAdapter(MainPresenter.View view, Context context) {
         mCostList = new ArrayList<>();
         mView = view;
-        mContext = context;
         mSelectedItems = new HashSet<>();
     }
 
