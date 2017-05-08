@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/HerrDoktorBD/android-clean-sample-app.svg?branch=master)](https://travis-ci.org/HerrDoktorBD/android-clean-sample-app)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a6f7bcc22a174ac9b36795438c143b6d)](https://www.codacy.com/app/HerrDoktorBD/android-clean-sample-app?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=HerrDoktorBD/android-clean-sample-app&amp;utm_campaign=Badge_Grade)
-[![Coverage Status](https://coveralls.io/repos/github/HerrDoktorBD/android-clean-sample-app/badge.svg?branch=master)](https://coveralls.io/github/HerrDoktorBD/android-clean-sample-app?branch=master)
+[![Build Status](https://travis-ci.org/HerrDoktorBD/android-clean-sample.svg?branch=master)](https://travis-ci.org/HerrDoktorBD/android-clean-sample)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a6f7bcc22a174ac9b36795438c143b6d)](https://www.codacy.com/app/HerrDoktorBD/android-clean-sample?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=HerrDoktorBD/android-clean-sample&amp;utm_campaign=Badge_Grade)
+[![Coverage Status](https://coveralls.io/repos/github/HerrDoktorBD/android-clean-sample/badge.svg?branch=master)](https://coveralls.io/github/HerrDoktorBD/android-clean-sample?branch=master)
 
 # Android Clean - Cost Tracker
 =========================
