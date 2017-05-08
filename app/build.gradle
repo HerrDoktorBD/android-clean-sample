@@ -74,8 +74,8 @@ dependencies {
     compile "com.github.Raizlabs.DBFlow:dbflow:${dbflow_version}"
 
     // tests
-    testCompile 'junit:junit:4.12'
-    testCompile "org.mockito:mockito-core:1.+"
+    testCompile "junit:junit:${junitVer}"
+    testCompile "org.mockito:mockito-all:${mockitoVer}"
 }
 
 def coverageSourceDirs = ['src/main/java']

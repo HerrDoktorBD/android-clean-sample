@@ -21,6 +21,9 @@ allprojects {
         androidVersionCode = 1
         androidVersionName = "1.0"
         testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
+
+        junitVer = '4.12'
+        mockitoVer = '1.10.19'
     }
 
     repositories {

@@ -17,7 +17,6 @@ import java.util.Date;
 
 import static org.mockito.Mockito.when;
 
-
 /**
  * Created by dmilicic on 1/8/16.
  */
